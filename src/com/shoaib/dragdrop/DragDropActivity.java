@@ -33,7 +33,7 @@ public class DragDropActivity extends Activity{
 	private final long MILLIS_IN_SECOND = 1000;
 	private final int NUM_ROWS = 4;
 	private final int NUM_COLS = 3;
-	private final int NUM_IMAGES = 33;
+	private final int NUM_IMAGES = 3;
 	private final int NUM_TILES = NUM_ROWS * NUM_COLS;
 	private final int IMAGE_WIDTH = 768;
 	private final int IMAGE_HEIGHT = 1280;
@@ -417,39 +417,6 @@ public class DragDropActivity extends Activity{
 	    mImage[0] = R.drawable.pic0;
 	    mImage[1] = R.drawable.pic1;
 	    mImage[2] = R.drawable.pic2;
-	    mImage[3] = R.drawable.pic3;
-	    mImage[4] = R.drawable.pic4;
-	    mImage[5] = R.drawable.pic5;
-	    mImage[6] = R.drawable.pic6;
-	    mImage[7] = R.drawable.pic7;
-	    mImage[8] = R.drawable.pic8;
-	    mImage[9] = R.drawable.pic9;
-	    
-	    mImage[10] = R.drawable.pic10;
-	    mImage[11] = R.drawable.pic11;
-	    mImage[12] = R.drawable.pic12;
-	    mImage[13] = R.drawable.pic13;
-	    mImage[14] = R.drawable.pic14;
-	    mImage[15] = R.drawable.pic15;
-	    mImage[16] = R.drawable.pic16;
-	    mImage[17] = R.drawable.pic17;
-	    mImage[18] = R.drawable.pic18;
-	    mImage[19] = R.drawable.pic19;
-	    
-	    mImage[20] = R.drawable.pic20;
-	    mImage[21] = R.drawable.pic21;
-	    mImage[22] = R.drawable.pic22;
-	    mImage[23] = R.drawable.pic23;
-	    mImage[24] = R.drawable.pic24;
-	    mImage[25] = R.drawable.pic25;
-	    mImage[26] = R.drawable.pic26;
-	    mImage[27] = R.drawable.pic27;
-	    mImage[28] = R.drawable.pic28;
-	    mImage[29] = R.drawable.pic29;
-	    
-	    mImage[30] = R.drawable.pic30;
-	    mImage[31] = R.drawable.pic31;
-	    mImage[32] = R.drawable.pic32;
   }
 } 
 
