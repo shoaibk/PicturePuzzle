@@ -5,7 +5,7 @@ Android puzzle game inspired by the classic 15-puzzle game that breaks up a pict
 
 How It Works
 ==============
-The game uses a 4x3 grid of rectangular Imageview blocks as the main layout. At the beginning of the game, a picture is loaded, and broken up into 3×4 rectangular pieces as bitmaps. These bitmaps are then positioned randomly into the Imageviews, creating the initial view of the game.
+The game uses a 4x3 grid of rectangular Imageview blocks as the main layout. At the beginning of the game, a picture is loaded, and broken up into 4x3 rectangular pieces as bitmaps. These bitmaps are then positioned randomly into the Imageviews, creating the initial view of the game.
 
 Each of these bitmaps is contained within an ImageView, which have touch and drag listeners attached to it. The drag listeners keep track of the position of the ImageViews and at the end of each drag, compare the current position of the group of ImageViews with their respective original positions. When all the ImageViews are placed into their original positions, the puzzle is solved.
 
